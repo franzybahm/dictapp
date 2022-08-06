@@ -2,11 +2,14 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './Dictonary.css'
 
+import Result from "./Result.js"
+
 export default function Dictonary() {
     let [input, setInput] = useState("");
+    let [def, setDef] = useState(null);
 
     function handleResponse(response) {
-        console.log(response.data[0]);
+        setDef(response.data[0]);
     }
 
     function search(event) {
@@ -24,6 +27,7 @@ export default function Dictonary() {
             <form onSubmit={search}>
                 <input type="search" onChange={handleInputChange} />
             </form>
+            <Result data={def} />
         </div>
     )
 }
