@@ -1,0 +1,20 @@
+.App-header {
+  margin: 50px;
+}
+
+.App-img {
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: cadetblue;
+}
+
+.footer {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: cadetblue;
+}
