@@ -1,5 +1,29 @@
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  color: cadetblue;
+}
+
+h3,
+h4,
+em,
+p {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.App {
+  display: block;
+  margin: 50 auto;
+  background-color: #f8feff;
+  padding: 100px;
+}
+
 .App-header {
-  margin: 50px;
+  margin: 20px;
 }
 
 .App-img {

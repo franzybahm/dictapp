@@ -23,9 +23,10 @@ export default function Dictonary() {
     }
 
     return (
-        <div className="Dictonary">
+        <div>
+            <h1>Dictonary</h1>
             <form onSubmit={search}>
-                <input type="search" onChange={handleInputChange} />
+                <input className="searchbar" type="search" onChange={handleInputChange} placeholder="Search for a word!" />
             </form>
             <Result data={def} />
         </div>
